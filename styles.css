@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    background-color: #2e2e2e;
+}
+
+.gen {
+    border: 2px solid greenyellow;
+    background-color: #2e2e2e;
+    color: white;
+    text-align: center;
+    width: 300px;
+    padding: 15px;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+.gen-c {
+    display: flex;
+    width: 600px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+#ni {
+    margin: 50px;
+    font-size: 2.2em;
+    color: white;
+    text-align: center;
+}
