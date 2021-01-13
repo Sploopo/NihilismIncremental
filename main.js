@@ -1,4 +1,4 @@
-var nih = 10
+var nih = 1
 var gens = []
 var lastUp = Date.now()
 for(let i = 0; i < 4; i++) {
