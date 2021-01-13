@@ -10,11 +10,11 @@ for(let i = 0; i < 4; i++) {
     }
     gens.push(g)
 }
-/*
 function format(amount) {
     let pow = Math.floor(Math.log10(amount))
     let man = amount / Math.pow(10, pow)
     if(pow < 3) return amount.toFixed(2)
+    /*
     if(pow < 6) return man.toFixed(2) + "K"
     if(pow < 9) return man.toFixed(2) + "M"
     if(pow < 12) return man.toFixed(2) + "B"
@@ -28,9 +28,9 @@ function format(amount) {
     if(pow < 36) return man.toFixed(2) + "Dc"
     if(pow < 39) return man.toFixed(2) + "UDc"
     if(pow < 42) return man.toFixed(2) + "DDc"
+    */
     return man.toFixed(2) + "e" + pow
-}
-*/ // this messed with something somehow ech
+} // this messed with something somehow ech
 function buyGen(i) {
     let g = gens[i - 1]
     if(g.price > nih) return
